@@ -1,0 +1,52 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main()
+{
+	int x;
+	int y;
+	cout << "ENTER A NUMBER : \n\t\t";
+	cin >> x;
+	
+	cout << "ENTER SECOND NUMBER : \n\t\t";
+	cin >> y;
+
+	cout <<max(x, y)<<"\n";
+	cout <<min(x, y)<<"\n";
+	cout <<sqrt(x) <<"\n";
+	cout << round(x) <<"\n";
+	cout << log(x) <<"\n";
+
+
+/*
+	SOME OTHER FUNCTIONS
+
+	FUNCTION	DESCRIPTION
+	abs(x)		RETURNS THE ABSOLUTE VALUE OF X
+	acos(x)		RETURNS THE ARCCOSINE OF X
+	asin(x) 	RETURNS THE ARCSINE OF X
+	atans(x) 	RETURNS THE ARCTANGENT OF X
+	cbrt(x) 	RETURNS THE ARCCTANGENT OF X
+	ceil(x) 	RETURNS THE CUBE ROOT OF X
+	cos(x)		RETURNS THE COSINE OF X
+	cosh(x)		RETURNS THE HYPERBOLIC COSINE OF X
+	exp(x)		RETURNS THE E**X
+	expm1(x) 	RETURNS THE (E**X)-1
+	fabs(x)		RETURNS THE ABSOLUTE VALUE OF FLOATING X
+	fdim(x, y)	RETURNS THE POSITIVE DIFFERENCE BETWEEN X AND Y
+	floor(x)	RETURNS THE VALUE OF X ROUNDED DOWN TO ITS NEAREST INTEGER
+	hypot(x, y) 	RETURNS sqrt(x**2 + y**2) WITHOUT INTERMEDIATE OVERFLOW OR UNDERFLOW.
+	fma(x, y, z) 	RETURNS X*Y+Z WITHOUT LOSING PRECISION
+	fmax(x, y)	RETURNS THE HIGHEST VALUE OF A FLOATING X AND Y
+	fmin(x, y)	RETURNS THE LOWEST VALUE OF A FLOATING X AND Y
+	fmod(x, y)	RETURNS THE FLOATING POINT REMAINDER OF X/Y
+	pow(x, y) 	RETURNS THE VALUE OF X TO THE POWER OF Y
+	sin(x)		RETURNS THE SINE OF X ( X IS IN RADIANS)
+	sinh(x)		RETURNS THE HYPERBOLIC SINE OF A DOUBLE VALUE
+	tan(x)		RETURNS THE TANGENT OF AN ANGLE
+	tanh(x)		RETURNS THE HYPERBOLIC TANGENT OF A DOUBLE VALUE.
+
+*/
+	return 0;
+}

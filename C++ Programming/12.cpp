@@ -1,0 +1,13 @@
+// OMITTING NAMESPACE
+// YOU MIGHT SEE SOME C++ PROGRAMS THAT RUNS WITHOUT THE STANDARD NAMESPACE LIBRARY. THE USING NAMESPACE STD LINE AN BE OMITTED AND REPLACED WITH THE std KEYWORD, FOLLOWED BY THE :: OPERATOR FOR STRING (AND COUT ) OBJECTS.
+
+#include <iostream>
+#include <string>
+
+int main()
+{
+	std::string greeting = "Hello";
+	std::cout << greeting;
+
+	return 0;
+}

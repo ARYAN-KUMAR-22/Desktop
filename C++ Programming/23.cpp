@@ -1,0 +1,18 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+	// C++ ARRAYS
+	// ARRAYS ARE USED TO STORE MULTIPLE VALUES IN A SINGLE VARIABLE, INSTEAD OF DECLARING SEPARATE VARIABLES OF EACH VALUE.
+
+	// TO DECLARE AN ARRAY, DEFINE THE VARIABLE TYPE, SPECIFY THE NAME OF THE ARRAY FOLLOWED BY SQUARE BRACKETS AND SPECIFY THE NUMBER OF ELEMENTS IT SHOULD STORE.
+	string cars[4] = {"Volvo", "BMW", "Ford", "Mazda"};
+	cout << cars[0]<<"\n";
+
+	cars[0] = "Opel";
+	cout << cars[0];
+
+
+	return 0;
+}
