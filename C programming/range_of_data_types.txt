@@ -1,0 +1,7 @@
+-> sizeof(short) <= sizeof(int) <= sizeof(long)
+-> writing signed int some_variable_name; is equivalent of writing int some_variable_name;
+-> %d is used to print "signed integer"
+-> %u is used to print "unsigend integer"
+-> %ld is used to printf "long integer" equivalend to "signed long integer"
+-> %lld is used to print "long long integer"
+-> %llu is used to print "unsigned long long integer"
